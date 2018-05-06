@@ -1,0 +1,18 @@
+cara menjalankan 
+
+$python app.py
+
+habis itu jika error silahkan install package terlebih dahulu
+- numpy
+- Flask
+- opencv-python
+- docopt
+
+cara install package 
+$pip install nama_package
+
+nb: jika belum ada pip install terlebih dahulu 
+caranya linux $sudo apt install python-pip
+	windows googling karena saya tidak menggunakan windows buat developing 
+
+jika sudah bisa diakses melalui http://127.0.0.1:5000

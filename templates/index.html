@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<label>Menyisipkan Pesan</label>
+	<form action="/api/encode" method="POST" enctype="multipart/form-data">
+		<input type="file" name="file_gambar">
+		<input type="text" name="text">
+		<input type="submit" name="submit" value="sisip pesan">
+	</form>
+	<label>Melihat isi pesan</label>
+	<form action="/api/decode" method="POST" enctype="multipart/form-data">
+		<input type="file" name="file_gambar">
+		<input type="submit" name="submit" value="lihat pesan">
+	</form>
+	{% if pesan %}
+		<h3>{{ pesan }}</h3>
+	{% endif %}
+</body>
+</html>
