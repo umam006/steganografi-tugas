@@ -10,7 +10,7 @@ enum34==1.1.6
 et-xmlfile==1.0.1
 Flask==1.0.2
 numpy==1.14.3
-opencv-python==3.4.0.12
+opencv-python==3.4.7.28
 openpyxl==2.5.3
 pathlib2==2.3.0
 prettytable==0.7.2
